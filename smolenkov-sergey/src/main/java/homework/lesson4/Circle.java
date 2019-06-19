@@ -4,8 +4,7 @@ public class Circle {
 
     private double radius = 1.0;
     private String color = "red";
-    private double perimeter = 2 * Math.PI * radius;
-    private double area = Math.PI * Math.pow(radius, 2);
+
 
     public Circle() {
     }
@@ -20,11 +19,11 @@ public class Circle {
     }
 
     public double getPerimeter() {
-        return perimeter;
+        return 2 * Math.PI * radius;
     }
 
     public double getArea() {
-        return area;
+        return Math.PI * Math.pow(radius, 2);
     }
 
     public String getColor() {
@@ -44,7 +43,7 @@ public class Circle {
     }
 
     public double getCircumference() {
-        return perimeter;
+        return 2 * Math.PI * radius;
     }
 
 }

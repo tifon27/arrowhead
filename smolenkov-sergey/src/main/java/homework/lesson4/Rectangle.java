@@ -5,8 +5,6 @@ public class Rectangle {
     private double length = 1.0;
     private double width = 1.0;
     private String color = "red";
-    private double perimeter = 2 * (length + width);
-    private double area = length * width;
 
     public Rectangle() {
     }
@@ -47,11 +45,11 @@ public class Rectangle {
     }
 
     public double getArea() {
-        return area;
+        return length * width;
     }
 
     public double getPerimeter() {
-        return perimeter;
+        return 2 * (length + width);
     }
 
 }

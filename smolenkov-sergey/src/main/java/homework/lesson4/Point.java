@@ -33,7 +33,8 @@ public class Point {
         return distance(x, y);
     }
 
-    public double distance(double point){
-        return distance(point);
+    public double distance(Point other){
+        return distance(other);
     }
+
 }
